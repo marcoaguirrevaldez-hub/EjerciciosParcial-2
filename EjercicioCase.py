@@ -39,12 +39,12 @@ match opcion: #Aqui inicia el match, que es una validación de caso
       email = ""
       password = ""
     case 4:
-      name = input("Ingresa tu nombre: ")
-      lastName = input("Ingresa tu apellido: ")
-      age = int(input("Ingresa tu edad: "))
-      birthday = input("Ingresa tu fecha de nacimiento: ")
-      email = input("Ingresa tu correo electronico: ")
-      password = input("Ingresa tu contraseña: ")
+      name.append(input("Ingresa tu nombre: "))
+      lastName.append(input("Ingresa tu apellido: "))
+      age.append(int(input("Ingresa tu edad: ")))
+      birthday.append(input("Ingresa tu fecha de nacimiento: "))
+      email.append(input("Ingresa tu correo electronico: "))
+      password.append(input("Ingresa tu contraseña: "))
     case 5:
       print("¡Hasta luego!")
       break

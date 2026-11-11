@@ -47,6 +47,7 @@ match opcion: #Aqui inicia el match, que es una validación de caso
       password.append(input("Ingresa tu contraseña: "))
     case 5:
       print("¡Hasta luego!")
+      
       break
     case _:
       print("Opción no válida")

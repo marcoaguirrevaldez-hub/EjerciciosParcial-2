@@ -28,7 +28,7 @@ match opcion: #Aqui inicia el match, que es una validación de caso
         email.append(("Ingresa tu correo electronico: "))
         password.append(("Ingresa tu contraseña: "))
         confirmPassword.append(input("Confirme tu contraseña: "))
-        print ("Usuario registrado exitosamente, con el ID. " + str(len)(name) - 1)
+        print ("Usuario registrado exitosamente, con el ID. " + str(len(name) - 1))
     case 2:
       print  ("Nombre: ", name, "Edad: ", age, "Fecha de nacimiento:", birthday, "Correo electronico: ", email, "Contraseña: ", password)
     case 3:
@@ -47,7 +47,6 @@ match opcion: #Aqui inicia el match, que es una validación de caso
       password.append(input("Ingresa tu contraseña: "))
     case 5:
       print("¡Hasta luego!")
-      
       break
     case _:
       print("Opción no válida")
